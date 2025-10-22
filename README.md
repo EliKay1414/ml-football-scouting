@@ -26,18 +26,12 @@ XGBoost’s optimal threshold was 0.284, yielding 78.6% recall and 50% precision
 
 📁 Repository Structure
 football-scouting-ml/
-│── data/                   # Cleaned and processed datasets
-│── models/                 # Trained model files and deployment artifacts
-│── notebooks/              # Jupyter notebooks for analysis and visualization
-│── figures/                # Plots and evaluation charts
-│── README.md               # Project documentation
 
-
-
-🚀 Deployment
-The final XGBoost model was deployed with a calibrated threshold of 0.284 and saved as:
-models/deployment/best_model_20250728_080718.pkl
-
+│ data/                   # Cleaned and processed datasets
+│ models/                 # Trained model files and deployment artifacts
+│ notebooks/              # Jupyter notebooks for analysis and visualization
+│ figures/                # Plots and evaluation charts
+│ README.md               # Project documentation
 
 
 📌 Recommendations
@@ -51,3 +45,4 @@ models/deployment/best_model_20250728_080718.pkl
 - Edward Akuleme Adiyure
 Final-year students, BSc Computer Science and Engineering
 University of Mines and Technology (UMaT), Ghana
+
