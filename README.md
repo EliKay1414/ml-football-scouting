@@ -43,6 +43,8 @@ football-scouting-ml/
 - Elikplim Emmanuel Atinyuie
 - Collins Nana Agyapong
 - Edward Akuleme Adiyure
+  
 Final-year students, BSc Computer Science and Engineering
 University of Mines and Technology (UMaT), Ghana
+
 
