@@ -1,0 +1,16 @@
+﻿# Data
+data/processed/
+data/raw/*.pkl
+
+# Environments
+.env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]

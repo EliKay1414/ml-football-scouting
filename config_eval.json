@@ -1,0 +1,18 @@
+{
+  "paths": {
+    "models_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\models\\prospect_models_v1",
+    "test_features": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\leakproof_features\\processed_test.feather",
+    "selected_features": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\leakproof_features\\selected_features.pkl",
+    "test_labels": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\leakproof_features\\test_labels.csv",
+    "new_data": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\new_players.csv",
+    "output_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\evaluation_results",
+    "deployment_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\models\\deployment"
+  },
+  "metrics": {
+    "threshold": 0.5,
+    "positive_class": 1,
+    "top_n_features": 15,
+    "min_recall": 0.6,
+    "min_precision": 0.6
+  }
+}

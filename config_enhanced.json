@@ -1,0 +1,32 @@
+{
+  "paths": {
+    "models_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\models\\prospect_models_v1",
+    "test_data": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\features\\test_features.csv",
+    "new_data": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\new_players.csv",
+    "output_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\evaluation_results",
+    "deployment_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\models\\deployment"
+  },
+  "scouting_metrics": {
+    "key_attributes": [
+      "potential",
+      "value_eur",
+      "age",
+      "overall"
+    ],
+    "success_threshold": 0.7,
+    "top_n_players": 100,
+    "cost_of_miss": 5000000,
+    "cost_of_false_alarm": 2000000,
+    "scaling_test_sizes": [
+      1000,
+      5000,
+      10000,
+      20000
+    ]
+  },
+  "computation_metrics": {
+    "track_training_time": true,
+    "track_prediction_time": true,
+    "track_memory_usage": true
+  }
+}
