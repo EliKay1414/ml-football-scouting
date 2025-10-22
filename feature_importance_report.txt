@@ -1,0 +1,9 @@
+Feature Importance Analysis Report
+========================================
+Model: XGBoost
+Date: 2025-08-06 18:04:41.261513
+
+Global Feature Importance:
+- Top feature: num__num__skill_moves (0.1622)
+- Saved to: C:\Users\Nanaba\Desktop\football_player_scouting_ml\evaluation_results\global_importance\global_importance_XGBoost.csv
+

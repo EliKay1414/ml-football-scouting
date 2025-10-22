@@ -1,0 +1,31 @@
+,0
+overall,30.0
+potential,29.0
+dribbling,28.0
+age,27.0
+shooting,26.0
+defending,25.0
+passing,24.0
+pace,23.0
+x1_Unique,22.0
+physic,21.0
+x0_MEDIUM/MEDIUM,20.0
+height_cm,19.0
+weight_kg,18.0
+x0_HIGH/MEDIUM,17.0
+x0_HIGH/HIGH,16.0
+x1_Lean (170-185),15.0
+x1_Normal (185+),14.0
+x0_HIGH/LOW,13.0
+x0_LOW/HIGH,11.5
+x1_Normal (170-185),11.5
+x0_MEDIUM/LOW,10.0
+x1_Lean (170-),9.0
+x1_Lean (185+),8.0
+x0_MEDIUM/HIGH,7.0
+x1_Stocky (170-),6.0
+x1_Stocky (170-185),5.0
+x1_Normal (170-),3.5
+x0_LOW/LOW,3.5
+x1_Stocky (185+),2.0
+x0_LOW/MEDIUM,1.0

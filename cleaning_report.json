@@ -1,0 +1,334 @@
+{
+  "steps": {
+    "column_removal": {
+      "removed_columns": [
+        "lw",
+        "st",
+        "lf",
+        "club_position",
+        "league_name",
+        "nation_logo_url",
+        "dob",
+        "rw",
+        "lm",
+        "rm",
+        "lb",
+        "nation_position",
+        "rcm",
+        "cdm",
+        "nation_jersey_number",
+        "nation_flag_url",
+        "rb",
+        "ram",
+        "lcm",
+        "nationality_id",
+        "long_name",
+        "real_face",
+        "nationality_name",
+        "rs",
+        "lam",
+        "cb",
+        "club_jersey_number",
+        "nation_team_id",
+        "ldm",
+        "rdm",
+        "club_logo_url",
+        "gk",
+        "player_face_url",
+        "rcb",
+        "lwb",
+        "lcb",
+        "club_loaned_from",
+        "player_tags",
+        "cm",
+        "rwb",
+        "cf",
+        "club_team_id",
+        "club_contract_valid_until",
+        "club_flag_url",
+        "player_traits",
+        "rf",
+        "cam",
+        "player_url",
+        "ls"
+      ],
+      "remaining_columns": 62
+    },
+    "duplicate_handling": {
+      "duplicates_removed": 96450
+    },
+    "categorical_cleaning": {
+      "club_name": {
+        "action": "grouped",
+        "original_unique": 1012,
+        "final_unique": 50
+      },
+      "preferred_foot": {
+        "action": "cleaned",
+        "unique_values": 2
+      },
+      "work_rate": {
+        "action": "split",
+        "new_columns": [
+          "work_rate_att",
+          "work_rate_def"
+        ]
+      },
+      "body_type": {
+        "action": "cleaned",
+        "unique_values": 10
+      }
+    },
+    "missing_data": {
+      "dropped_goalkeeping_speed": {
+        "missing_pct": 0.8883166407328672,
+        "action": "dropped_column"
+      },
+      "pace_missing": {
+        "action": "position-specific median with fallback"
+      },
+      "shooting_missing": {
+        "action": "position-specific median with fallback"
+      },
+      "passing_missing": {
+        "action": "position-specific median with fallback"
+      },
+      "dribbling_missing": {
+        "action": "position-specific median with fallback"
+      },
+      "defending_missing": {
+        "action": "position-specific median with fallback"
+      },
+      "physic_missing": {
+        "action": "position-specific median with fallback"
+      },
+      "mentality_composure_missing": {
+        "action": "position-specific median with fallback"
+      },
+      "value_eur_missing": {
+        "action": "position/rating/age grouped median with fallback"
+      },
+      "wage_eur_missing": {
+        "action": "position/rating/age grouped median with fallback"
+      },
+      "release_clause_eur_missing": {
+        "action": "position/rating/age grouped median with fallback"
+      },
+      "league_level_missing": {
+        "action": "filled with 3 (lowest tier)"
+      },
+      "club_joined_missing": {
+        "action": "filled with UNKNOWN"
+      }
+    },
+    "numeric_cleaning": {
+      "age": {
+        "outliers_found": 2,
+        "action": "clipped"
+      },
+      "height_cm": {
+        "outliers_found": 0,
+        "action": "clipped"
+      },
+      "weight_kg": {
+        "outliers_found": 1,
+        "action": "clipped"
+      },
+      "pace": {
+        "outliers_found": 38,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "passing": {
+        "outliers_found": 1,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "dribbling": {
+        "outliers_found": 9,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "physic": {
+        "outliers_found": 6,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "movement_acceleration": {
+        "outliers_found": 2,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "movement_sprint_speed": {
+        "outliers_found": 7,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "movement_reactions": {
+        "outliers_found": 11,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "movement_balance": {
+        "outliers_found": 5,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "power_jumping": {
+        "outliers_found": 10,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "power_strength": {
+        "outliers_found": 4,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "mentality_composure": {
+        "outliers_found": 23,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "goalkeeping_diving": {
+        "outliers_found": 268,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "goalkeeping_handling": {
+        "outliers_found": 292,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "goalkeeping_kicking": {
+        "outliers_found": 306,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "goalkeeping_positioning": {
+        "outliers_found": 406,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "goalkeeping_reflexes": {
+        "outliers_found": 275,
+        "method": "z-score",
+        "threshold": 3.5,
+        "action": "set to NaN for re-imputation"
+      },
+      "value_eur": {
+        "outliers_found": 438,
+        "action": "capped at 99th percentile",
+        "cap_value": 21000000.0
+      },
+      "wage_eur": {
+        "outliers_found": 433,
+        "action": "capped at 99th percentile",
+        "cap_value": 70000.0
+      },
+      "release_clause_eur": {
+        "outliers_found": 457,
+        "action": "capped at 99th percentile",
+        "cap_value": 39716000.00000035
+      }
+    },
+    "memory_optimization": {
+      "initial_memory": 58973809,
+      "final_memory": 14343769,
+      "savings": 44630040,
+      "savings_pct": 75.67773009201424
+    }
+  },
+  "issues": {
+    "remaining_missing": {
+      "columns": [
+        "pace",
+        "passing",
+        "dribbling",
+        "physic",
+        "movement_acceleration",
+        "movement_sprint_speed",
+        "movement_reactions",
+        "movement_balance",
+        "power_jumping",
+        "power_strength",
+        "mentality_composure",
+        "goalkeeping_diving",
+        "goalkeeping_handling",
+        "goalkeeping_kicking",
+        "goalkeeping_positioning",
+        "goalkeeping_reflexes"
+      ],
+      "counts": {
+        "pace": 38,
+        "passing": 1,
+        "dribbling": 9,
+        "physic": 6,
+        "movement_acceleration": 2,
+        "movement_sprint_speed": 7,
+        "movement_reactions": 11,
+        "movement_balance": 5,
+        "power_jumping": 10,
+        "power_strength": 4,
+        "mentality_composure": 23,
+        "goalkeeping_diving": 268,
+        "goalkeeping_handling": 292,
+        "goalkeeping_kicking": 306,
+        "goalkeeping_positioning": 406,
+        "goalkeeping_reflexes": 275
+      },
+      "percentages": {
+        "pace": 0.08,
+        "passing": 0.0,
+        "dribbling": 0.02,
+        "physic": 0.01,
+        "movement_acceleration": 0.0,
+        "movement_sprint_speed": 0.02,
+        "movement_reactions": 0.02,
+        "movement_balance": 0.01,
+        "power_jumping": 0.02,
+        "power_strength": 0.01,
+        "mentality_composure": 0.05,
+        "goalkeeping_diving": 0.59,
+        "goalkeeping_handling": 0.64,
+        "goalkeeping_kicking": 0.67,
+        "goalkeeping_positioning": 0.89,
+        "goalkeeping_reflexes": 0.6
+      }
+    },
+    "high_cardinality": {
+      "sofifa_id": 45629,
+      "short_name": 40999,
+      "player_positions": 1102,
+      "club_joined": 3226
+    }
+  },
+  "metrics": {},
+  "recommendations": [
+    "Consider reducing cardinality for sofifa_id (45629 unique values)",
+    "Consider reducing cardinality for short_name (40999 unique values)",
+    "Consider reducing cardinality for player_positions (1102 unique values)",
+    "Consider reducing cardinality for club_joined (3226 unique values)"
+  ],
+  "initial_columns": {
+    "total": 111,
+    "financial": 3,
+    "attributes": 41,
+    "categorical": 7,
+    "irrelevant": 49
+  }
+}

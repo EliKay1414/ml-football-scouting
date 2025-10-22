@@ -1,0 +1,49 @@
+data:
+  categorical_features:
+  - preferred_foot
+  - work_rate
+  - body_type
+  - player_positions
+  features_path: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\test_scaled.csv
+  high_cardinality_threshold: 15
+  numeric_features:
+  - age
+  - height_cm
+  - weight_kg
+  - overall
+  - potential
+  - value_eur
+  - wage_eur
+  - international_reputation
+  - pace
+  - shooting
+  - passing
+  - dribbling
+  - defending
+  - physic
+  - growth_potential
+  - age_adjusted_potential
+  protected_features:
+  - growth_potential
+  - age_adjusted_potential
+  random_state: 42
+  target: is_prospect
+  test_size: 0.2
+modeling:
+  cv_folds: 5
+  models:
+  - random_forest
+  - xgboost
+  - lightgbm
+  - catboost
+  - logistic_regression
+  - gradient_boosting
+  n_iter: 30
+  n_jobs: -1
+  scoring:
+    primary: roc_auc
+    secondary: f1
+output:
+  feature_importance_top_n: 15
+  model_dir: ../models/prospect_classification_v2
+  probability_threshold: 0.4

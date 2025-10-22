@@ -1,0 +1,41 @@
+2025-06-17 03:06:14,676 - ERROR - Failed to import pipeline: cannot import name 'AdvancedFeatureSelector' from 'feature_engineering_pipeline' (C:\Users\Nanaba\Desktop\football_player_scouting_ml\src\feature_engineering_pipeline.py). Please ensure:
+1. Your Python file is named 'feature_selection_pipeline.py' or 'feature_engineering_pipeline.py'
+2. The file is located in: C:\Users\Nanaba\Desktop\football_player_scouting_ml\src
+3. The file contains the AdvancedFeatureSelector class
+2025-06-17 03:27:13,385 - INFO - ✅ Successfully imported from feature_selection.py
+2025-06-17 03:27:13,389 - INFO - 📂 Loading data from C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_engineered.csv
+2025-06-17 03:27:18,034 - INFO - ✅ All protected features present
+2025-06-17 03:27:18,043 - ERROR - ❌ Pipeline execution failed: run_advanced_feature_selection() got an unexpected keyword argument 'config'
+2025-06-17 03:31:47,550 - INFO - ✅ Successfully imported from feature_selection.py
+2025-06-17 03:31:47,553 - INFO - 🚀 Starting feature selection
+2025-06-17 03:31:47,556 - INFO - Loading data from C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_engineered.csv
+2025-06-17 03:31:52,830 - INFO - Starting feature selection process...
+2025-06-17 03:31:52,959 - WARNING - Interaction generation failed: name 'fe2' is not defined
+2025-06-17 03:31:52,961 - ERROR - Preprocessing failed: name 'SimpleImputer' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Nanaba\Desktop\football_player_scouting_ml\src\feature_selection.py", line 136, in _preprocess_data
+    ('imputer', SimpleImputer(strategy='median')),
+NameError: name 'SimpleImputer' is not defined
+2025-06-17 03:31:52,995 - ERROR - No features left after preprocessing
+2025-06-17 03:31:53,007 - ERROR - Pipeline failed: No features selected - check input data and config
+Traceback (most recent call last):
+  File "C:\Users\Nanaba\Desktop\football_player_scouting_ml\src\feature_selection.py", line 475, in run_advanced_feature_selection
+    raise ValueError("No features selected - check input data and config")
+ValueError: No features selected - check input data and config
+2025-06-17 03:31:53,009 - ERROR - ❌ Pipeline failed: No features selected - check input data and config
+2025-06-17 03:31:53,016 - INFO - 🚀 Starting feature selection
+2025-06-17 03:31:53,035 - INFO - Loading data from C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_engineered.csv
+2025-06-17 03:31:58,149 - INFO - Starting feature selection process...
+2025-06-17 03:31:58,279 - WARNING - Interaction generation failed: name 'fe2' is not defined
+2025-06-17 03:31:58,280 - ERROR - Preprocessing failed: name 'SimpleImputer' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Nanaba\Desktop\football_player_scouting_ml\src\feature_selection.py", line 136, in _preprocess_data
+    ('imputer', SimpleImputer(strategy='median')),
+NameError: name 'SimpleImputer' is not defined
+2025-06-17 03:31:58,307 - ERROR - No features left after preprocessing
+2025-06-17 03:31:58,310 - ERROR - Pipeline failed: No features selected - check input data and config
+Traceback (most recent call last):
+  File "C:\Users\Nanaba\Desktop\football_player_scouting_ml\src\feature_selection.py", line 475, in run_advanced_feature_selection
+    raise ValueError("No features selected - check input data and config")
+ValueError: No features selected - check input data and config
+2025-06-17 03:31:58,312 - ERROR - ❌ Pipeline failed: No features selected - check input data and config

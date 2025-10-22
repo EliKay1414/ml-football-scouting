@@ -1,0 +1,38 @@
+pace
+defending
+body_type_Lean (185+)
+age
+work_rate_High/High
+work_rate_Medium/High
+body_type_Stocky (170-)
+preferred_foot_Left
+weak_foot
+weight_kg
+shooting
+height_cm
+body_type_Normal (185+)
+body_type_Normal (170-)
+work_rate_Medium/Medium
+skill_moves
+body_type_Stocky (185+)
+work_rate_Low/Low
+work_rate_High/Low
+work_rate_Low/Medium
+preferred_foot_Right
+international_reputation
+wage_eur
+passing
+body_type_Stocky (170-185)
+body_type_Unique
+potential
+work_rate_High/Medium
+body_type_Normal (170-185)
+body_type_Lean (170-)
+dribbling
+release_clause_eur
+overall
+work_rate_Medium/Low
+work_rate_Low/High
+body_type_Lean (170-185)
+value_eur
+physic

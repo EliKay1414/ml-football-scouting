@@ -1,0 +1,56 @@
+2025-07-13 04:11:48,015 - model_comparison - ERROR - Failed to load AdaBoost.pkl: Model missing required prediction methods
+2025-07-13 04:11:48,033 - model_comparison - ERROR - Failed to load HistGradientBoosting.pkl: Model missing required prediction methods
+2025-07-13 04:11:48,407 - model_comparison - ERROR - Failed to load LightGBM.pkl: invalid load key, '\x02'.
+2025-07-13 04:11:48,433 - model_comparison - ERROR - Failed to load LogisticRegression.pkl: Model missing required prediction methods
+2025-07-13 04:11:48,464 - model_comparison - ERROR - Failed to load RandomForest.pkl: Model missing required prediction methods
+2025-07-13 04:11:48,487 - model_comparison - ERROR - Failed to load SVM.pkl: Model missing required prediction methods
+2025-07-13 04:11:48,582 - model_comparison - INFO - Loaded XGBoost (Size: 247.35 KB)
+2025-07-13 04:11:49,305 - model_comparison - WARNING - Missing scouting attributes: ['potential', 'value_eur', 'age', 'overall']
+2025-07-13 04:11:49,312 - model_comparison - INFO - Loaded 28416 samples with 5447 prospects
+2025-07-13 04:11:49,414 - model_comparison - INFO - Evaluated XGBoost (AUC: 1.000)
+2025-07-13 04:11:49,610 - model_comparison - INFO - Selected best model: XGBoost (AUC: 1.000)
+2025-07-13 04:11:49,847 - model_comparison - ERROR - Failed to generate performance_comparison: 'error'
+2025-07-13 04:11:49,864 - model_comparison - ERROR - Failed to generate computational_tradeoff: 'error'
+2025-07-13 04:11:51,231 - model_comparison - INFO - Generated scalability_analysis visualization
+2025-07-13 04:11:51,231 - model_comparison - ERROR - Failed to generate business_impact: 'error'
+2025-07-13 04:11:51,247 - model_comparison - INFO - Successfully generated 1/4 visualizations
+2025-07-13 04:11:51,318 - model_comparison - ERROR - Failed to generate performance_comparison: 'error'
+2025-07-13 04:11:51,334 - model_comparison - ERROR - Failed to generate computational_tradeoff: 'error'
+2025-07-13 04:11:52,206 - model_comparison - INFO - Generated scalability_analysis visualization
+2025-07-13 04:11:52,221 - model_comparison - ERROR - Failed to generate business_impact: 'error'
+2025-07-13 04:11:52,221 - model_comparison - INFO - Successfully generated 1/4 visualizations
+2025-07-13 04:11:52,231 - model_comparison - INFO - Successfully saved report to C:\Users\Nanaba\Desktop\football_player_scouting_ml\evaluation_results\model_comparison_report.md
+2025-07-13 04:11:52,264 - model_comparison - ERROR - Failed to generate performance_comparison: 'error'
+2025-07-13 04:11:52,264 - model_comparison - ERROR - Failed to generate computational_tradeoff: 'error'
+2025-07-13 04:11:53,265 - model_comparison - INFO - Generated scalability_analysis visualization
+2025-07-13 04:11:53,282 - model_comparison - ERROR - Failed to generate business_impact: 'error'
+2025-07-13 04:11:53,282 - model_comparison - INFO - Successfully generated 1/4 visualizations
+2025-07-13 04:11:53,282 - model_comparison - INFO - Successfully saved report to C:\Users\Nanaba\Desktop\football_player_scouting_ml\evaluation_results\model_comparison_report.md
+2025-07-13 04:18:03,295 - model_comparison - ERROR - Failed to load AdaBoost.pkl: Model missing required prediction methods
+2025-07-13 04:18:03,295 - model_comparison - ERROR - Failed to load HistGradientBoosting.pkl: Model missing required prediction methods
+2025-07-13 04:18:03,537 - model_comparison - ERROR - Failed to load LightGBM.pkl: invalid load key, '\x02'.
+2025-07-13 04:18:03,561 - model_comparison - ERROR - Failed to load LogisticRegression.pkl: Model missing required prediction methods
+2025-07-13 04:18:03,562 - model_comparison - ERROR - Failed to load RandomForest.pkl: Model missing required prediction methods
+2025-07-13 04:18:03,562 - model_comparison - ERROR - Failed to load SVM.pkl: Model missing required prediction methods
+2025-07-13 04:18:03,664 - model_comparison - INFO - Loaded XGBoost (Size: 247.35 KB)
+2025-07-13 04:18:04,524 - model_comparison - WARNING - Missing scouting attributes: ['potential', 'value_eur', 'age', 'overall']
+2025-07-13 04:18:04,540 - model_comparison - INFO - Loaded 28416 samples with 5447 prospects
+2025-07-13 04:18:04,646 - model_comparison - INFO - Evaluated XGBoost (AUC: 1.000)
+2025-07-13 04:18:04,856 - model_comparison - INFO - Selected best model: XGBoost (AUC: 1.000)
+2025-07-13 04:18:05,058 - model_comparison - ERROR - Failed to generate performance_comparison: 'error'
+2025-07-13 04:18:05,063 - model_comparison - ERROR - Failed to generate computational_tradeoff: 'error'
+2025-07-13 04:18:06,320 - model_comparison - INFO - Generated scalability_analysis visualization
+2025-07-13 04:18:06,336 - model_comparison - ERROR - Failed to generate business_impact: 'error'
+2025-07-13 04:18:06,336 - model_comparison - INFO - Successfully generated 1/4 visualizations
+2025-07-13 04:18:06,413 - model_comparison - ERROR - Failed to generate performance_comparison: 'error'
+2025-07-13 04:18:06,413 - model_comparison - ERROR - Failed to generate computational_tradeoff: 'error'
+2025-07-13 04:18:07,170 - model_comparison - INFO - Generated scalability_analysis visualization
+2025-07-13 04:18:07,170 - model_comparison - ERROR - Failed to generate business_impact: 'error'
+2025-07-13 04:18:07,170 - model_comparison - INFO - Successfully generated 1/4 visualizations
+2025-07-13 04:18:07,190 - model_comparison - INFO - Successfully saved report to C:\Users\Nanaba\Desktop\football_player_scouting_ml\evaluation_results\model_comparison_report.md
+2025-07-13 04:18:07,216 - model_comparison - ERROR - Failed to generate performance_comparison: 'error'
+2025-07-13 04:18:07,234 - model_comparison - ERROR - Failed to generate computational_tradeoff: 'error'
+2025-07-13 04:18:08,169 - model_comparison - INFO - Generated scalability_analysis visualization
+2025-07-13 04:18:08,173 - model_comparison - ERROR - Failed to generate business_impact: 'error'
+2025-07-13 04:18:08,175 - model_comparison - INFO - Successfully generated 1/4 visualizations
+2025-07-13 04:18:08,181 - model_comparison - INFO - Successfully saved report to C:\Users\Nanaba\Desktop\football_player_scouting_ml\evaluation_results\model_comparison_report.md

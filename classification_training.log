@@ -1,0 +1,146 @@
+2025-06-22 13:42:39,044 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-22 13:42:39,187 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-22 13:42:43,808 - ERROR - Model initialization failed: 'models'
+2025-06-23 01:57:01,498 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 01:57:01,787 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 01:57:02,148 - INFO - Initialized 11 classification models
+2025-06-23 01:57:08,654 - INFO - Loaded data with 85247 samples and 116 features
+2025-06-23 01:57:09,614 - INFO - 
+==================================================
+Training model: random_forest
+==================================================
+2025-06-23 01:57:09,614 - ERROR - Failed to train random_forest: could not convert string to float: 'France'
+2025-06-23 01:57:09,614 - INFO - 
+==================================================
+Training model: xgboost
+==================================================
+2025-06-23 01:57:10,479 - ERROR - Failed to train xgboost: could not convert string to float: 'France'
+2025-06-23 01:57:10,479 - INFO - 
+==================================================
+Training model: lightgbm
+==================================================
+2025-06-23 01:57:10,759 - ERROR - Failed to train lightgbm: could not convert string to float: 'France'
+2025-06-23 01:57:10,759 - INFO - 
+==================================================
+Training model: catboost
+==================================================
+2025-06-23 01:57:10,813 - ERROR - Failed to train catboost: Bad value for num_feature[non_default_doc_idx=0,feature_idx=74]="France": Cannot convert 'France' to float
+2025-06-23 01:57:10,814 - INFO - 
+==================================================
+Training model: logistic_regression
+==================================================
+2025-06-23 01:57:10,818 - ERROR - Failed to train logistic_regression: could not convert string to float: 'France'
+2025-06-23 01:57:10,822 - INFO - 
+==================================================
+Training model: gradient_boosting
+==================================================
+2025-06-23 01:57:10,822 - ERROR - Failed to train gradient_boosting: could not convert string to float: 'France'
+2025-06-23 01:57:10,822 - INFO - 
+==================================================
+Training model: svm
+==================================================
+2025-06-23 01:57:10,837 - ERROR - Failed to train svm: could not convert string to float: 'France'
+2025-06-23 01:57:10,837 - INFO - 
+==================================================
+Training model: knn
+==================================================
+2025-06-23 01:57:10,837 - ERROR - Failed to train knn: could not convert string to float: 'France'
+2025-06-23 01:57:10,837 - INFO - 
+==================================================
+Training model: mlp
+==================================================
+2025-06-23 01:57:10,852 - ERROR - Failed to train mlp: could not convert string to float: 'France'
+2025-06-23 01:57:10,861 - INFO - 
+==================================================
+Training model: ada_boost
+==================================================
+2025-06-23 01:57:11,112 - ERROR - Failed to train ada_boost: Input contains NaN
+2025-06-23 01:57:11,122 - INFO - 
+==================================================
+Training model: extra_trees
+==================================================
+2025-06-23 01:57:11,125 - ERROR - Failed to train extra_trees: could not convert string to float: 'France'
+2025-06-23 01:57:11,143 - INFO - Artifacts saved to ..\models\prospect_classification
+2025-06-23 01:57:11,143 - INFO - All models trained successfully
+2025-06-23 03:29:23,939 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:29:24,032 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:29:30,162 - INFO - Initialized 6 classification models
+2025-06-23 03:29:39,744 - INFO - Loaded data with 28416 samples and 1087 features
+2025-06-23 03:29:39,822 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 03:29:41,354 - INFO - 
+==================================================
+Training model: random_forest
+==================================================
+2025-06-23 03:29:41,365 - ERROR - Failed to train random_forest: could not convert string to float: 'Argentina'
+2025-06-23 03:29:41,366 - INFO - 
+==================================================
+Training model: xgboost
+==================================================
+2025-06-23 03:29:41,401 - ERROR - Failed to train xgboost: could not convert string to float: 'Argentina'
+2025-06-23 03:29:41,401 - INFO - 
+==================================================
+Training model: lightgbm
+==================================================
+2025-06-23 03:29:41,837 - ERROR - Failed to train lightgbm: could not convert string to float: 'Argentina'
+2025-06-23 03:29:41,838 - INFO - 
+==================================================
+Training model: catboost
+==================================================
+2025-06-23 03:29:41,901 - ERROR - Failed to train catboost: Bad value for num_feature[non_default_doc_idx=0,feature_idx=1046]="Argentina": Cannot convert 'Argentina' to float
+2025-06-23 03:29:41,902 - INFO - 
+==================================================
+Training model: logistic_regression
+==================================================
+2025-06-23 03:29:41,907 - ERROR - Failed to train logistic_regression: could not convert string to float: 'Argentina'
+2025-06-23 03:29:41,908 - INFO - 
+==================================================
+Training model: gradient_boosting
+==================================================
+2025-06-23 03:29:41,916 - ERROR - Failed to train gradient_boosting: could not convert string to float: 'Argentina'
+2025-06-23 03:29:41,937 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 03:29:41,939 - INFO - All models trained successfully
+2025-06-23 03:38:15,105 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:38:15,198 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:38:20,646 - INFO - Initialized 6 classification models
+2025-06-23 03:38:23,809 - INFO - Loaded data with 28416 samples and 1087 features
+2025-06-23 03:38:23,809 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 03:38:25,156 - INFO - 
+==================================================
+Training model: random_forest
+==================================================
+2025-06-23 03:38:25,156 - ERROR - Failed to train random_forest: could not convert string to float: 'Argentina'
+2025-06-23 03:38:25,156 - INFO - 
+==================================================
+Training model: xgboost
+==================================================
+2025-06-23 03:38:25,180 - ERROR - Failed to train xgboost: could not convert string to float: 'Argentina'
+2025-06-23 03:38:25,180 - INFO - 
+==================================================
+Training model: lightgbm
+==================================================
+2025-06-23 03:38:25,429 - ERROR - Failed to train lightgbm: could not convert string to float: 'Argentina'
+2025-06-23 03:38:25,429 - INFO - 
+==================================================
+Training model: catboost
+==================================================
+2025-06-23 03:38:25,456 - ERROR - Failed to train catboost: Bad value for num_feature[non_default_doc_idx=0,feature_idx=1046]="Argentina": Cannot convert 'Argentina' to float
+2025-06-23 03:38:25,458 - INFO - 
+==================================================
+Training model: logistic_regression
+==================================================
+2025-06-23 03:38:25,463 - ERROR - Failed to train logistic_regression: could not convert string to float: 'Argentina'
+2025-06-23 03:38:25,465 - INFO - 
+==================================================
+Training model: gradient_boosting
+==================================================
+2025-06-23 03:38:25,474 - ERROR - Failed to train gradient_boosting: could not convert string to float: 'Argentina'
+2025-06-23 03:38:25,492 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 03:38:25,492 - INFO - All models trained successfully

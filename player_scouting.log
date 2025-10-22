@@ -1,0 +1,737 @@
+2025-06-23 03:44:46,210 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:44:46,261 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:52:27,883 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:52:27,939 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 03:52:34,916 - ERROR - Data loading failed: 'high_cardinality_threshold'
+2025-06-23 04:02:05,758 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:02:05,804 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:02:12,649 - INFO - Preprocessor built with 36 features
+2025-06-23 04:02:12,649 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:02:12,654 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:04:50,565 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:04:50,620 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:04:58,583 - INFO - Preprocessor built with 36 features
+2025-06-23 04:04:58,584 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:04:58,587 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:05:00,166 - INFO - Preprocessor built with 36 features
+2025-06-23 04:05:00,167 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:05:00,170 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:05:00,179 - INFO - Initialized 4 models
+2025-06-23 04:05:00,298 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 04:05:00,298 - ERROR - Failed to train random_forest: name 'clone' is not defined
+2025-06-23 04:05:00,300 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 04:05:00,302 - ERROR - Failed to train xgboost: name 'clone' is not defined
+2025-06-23 04:05:00,305 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 04:05:00,307 - ERROR - Failed to train lightgbm: name 'clone' is not defined
+2025-06-23 04:05:00,309 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 04:05:00,312 - ERROR - Failed to train catboost: name 'clone' is not defined
+2025-06-23 04:05:00,334 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 04:05:00,335 - INFO - Training completed successfully
+2025-06-23 04:07:37,249 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:07:37,304 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:07:44,410 - INFO - Preprocessor built with 36 features
+2025-06-23 04:07:44,411 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:07:44,416 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:07:45,998 - INFO - Preprocessor built with 36 features
+2025-06-23 04:07:46,000 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:07:46,006 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:07:46,011 - INFO - Initialized 4 models
+2025-06-23 04:07:46,161 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 04:07:46,162 - ERROR - Failed to train random_forest: name 'clone' is not defined
+2025-06-23 04:07:46,163 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 04:07:46,166 - ERROR - Failed to train xgboost: name 'clone' is not defined
+2025-06-23 04:07:46,171 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 04:07:46,176 - ERROR - Failed to train lightgbm: name 'clone' is not defined
+2025-06-23 04:07:46,179 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 04:07:46,180 - ERROR - Failed to train catboost: name 'clone' is not defined
+2025-06-23 04:07:46,198 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 04:07:46,199 - INFO - Training completed successfully
+2025-06-23 04:09:17,727 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:09:17,771 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:09:25,529 - INFO - Preprocessor built with 36 features
+2025-06-23 04:09:25,532 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:09:25,536 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:09:27,119 - INFO - Preprocessor built with 36 features
+2025-06-23 04:09:27,120 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:09:27,125 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:09:27,134 - INFO - Initialized 4 models
+2025-06-23 04:09:27,246 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 04:09:30,557 - INFO - random_forest trained in 3.3s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:09:30,559 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 04:09:31,271 - INFO - xgboost trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:09:31,272 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 04:09:32,066 - INFO - lightgbm trained in 0.8s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:09:32,067 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 04:09:53,917 - INFO - catboost trained in 21.8s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:09:53,985 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 04:09:53,987 - INFO - Training completed successfully
+2025-06-23 04:13:56,022 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:13:56,079 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:14:03,123 - INFO - Preprocessor built with 36 features
+2025-06-23 04:14:03,125 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:14:03,129 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:14:04,566 - INFO - Preprocessor built with 36 features
+2025-06-23 04:14:04,569 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:14:04,574 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:14:04,581 - INFO - Initialized 4 models
+2025-06-23 04:14:04,724 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 04:14:07,486 - INFO - random_forest trained in 2.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:14:07,488 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 04:14:08,024 - INFO - xgboost trained in 0.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:14:08,025 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 04:14:08,690 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:14:08,692 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 04:14:29,114 - INFO - catboost trained in 20.4s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:14:29,186 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 04:14:29,187 - INFO - Training completed successfully
+2025-06-23 04:19:12,807 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:19:12,855 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 04:19:19,931 - INFO - Preprocessor built with 36 features
+2025-06-23 04:19:19,932 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:19:19,936 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:19:21,356 - INFO - Preprocessor built with 36 features
+2025-06-23 04:19:21,357 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 04:19:21,359 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 04:19:21,367 - INFO - Initialized 4 models
+2025-06-23 04:19:21,482 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 04:19:24,191 - INFO - random_forest trained in 2.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:19:24,192 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 04:19:24,724 - INFO - xgboost trained in 0.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:19:24,726 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 04:19:25,453 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:19:25,454 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 04:19:45,897 - INFO - catboost trained in 20.4s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 04:19:45,968 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 04:19:45,969 - INFO - Training completed successfully
+2025-06-23 07:19:02,959 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:19:03,056 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:19:09,969 - INFO - Preprocessor built with 36 features
+2025-06-23 07:19:09,969 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:19:09,974 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:19:11,358 - INFO - Preprocessor built with 36 features
+2025-06-23 07:19:11,358 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:19:11,358 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:19:11,377 - INFO - Initialized 4 models
+2025-06-23 07:19:11,481 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 07:19:14,138 - INFO - random_forest trained in 2.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:19:14,138 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 07:19:14,702 - INFO - xgboost trained in 0.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:19:14,704 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 07:19:15,403 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:19:15,403 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 07:19:37,139 - INFO - catboost trained in 21.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:19:37,218 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 07:19:37,218 - INFO - Training completed successfully
+2025-06-23 07:23:19,988 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:23:20,045 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:23:27,146 - INFO - Preprocessor built with 36 features
+2025-06-23 07:23:27,147 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:23:27,151 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:23:28,679 - INFO - Preprocessor built with 36 features
+2025-06-23 07:23:28,679 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:23:28,679 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:23:28,689 - INFO - Initialized 4 models
+2025-06-23 07:23:28,814 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 07:23:32,278 - INFO - random_forest trained in 3.4s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:23:32,278 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 07:23:33,038 - INFO - xgboost trained in 0.8s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:23:33,039 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 07:23:33,971 - INFO - lightgbm trained in 0.9s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:23:33,978 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 07:23:55,578 - INFO - catboost trained in 21.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:23:55,643 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 07:23:55,643 - INFO - Training completed successfully
+2025-06-23 07:33:18,068 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:33:18,128 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:33:25,148 - INFO - Preprocessor built with 36 features
+2025-06-23 07:33:25,148 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:33:25,148 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:33:26,898 - INFO - Preprocessor built with 36 features
+2025-06-23 07:33:26,898 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:33:26,898 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:33:26,913 - INFO - Initialized 4 models
+2025-06-23 07:33:27,028 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 07:33:29,805 - INFO - random_forest trained in 2.8s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:33:29,806 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 07:33:30,396 - INFO - xgboost trained in 0.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:33:30,397 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 07:33:31,147 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:33:31,148 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 07:33:51,803 - INFO - catboost trained in 20.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:33:51,868 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 07:33:51,868 - INFO - Training completed successfully
+2025-06-23 07:38:54,012 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:38:54,066 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 07:39:00,828 - INFO - Preprocessor built with 36 features
+2025-06-23 07:39:00,828 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:39:00,837 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:39:02,188 - INFO - Preprocessor built with 36 features
+2025-06-23 07:39:02,188 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 07:39:02,198 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 07:39:02,202 - INFO - Initialized 4 models
+2025-06-23 07:39:02,311 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 07:39:04,928 - INFO - random_forest trained in 2.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:39:04,933 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 07:39:05,478 - INFO - xgboost trained in 0.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:39:05,478 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 07:39:06,170 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:39:06,170 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 07:39:25,128 - INFO - catboost trained in 19.0s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 07:39:25,198 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 07:39:25,198 - INFO - Training completed successfully
+2025-06-23 08:05:43,384 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:05:43,444 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:05:50,687 - INFO - Preprocessor built with 36 features
+2025-06-23 08:05:50,688 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:05:50,688 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:05:52,191 - INFO - Preprocessor built with 36 features
+2025-06-23 08:05:52,191 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:05:52,196 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:05:52,197 - INFO - Initialized 4 models
+2025-06-23 08:05:52,317 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 08:05:55,497 - INFO - random_forest trained in 3.2s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:05:55,497 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 08:05:56,242 - INFO - xgboost trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:05:56,247 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 08:05:57,147 - INFO - lightgbm trained in 0.9s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:05:57,147 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 08:06:19,023 - INFO - catboost trained in 21.9s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:06:19,101 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 08:06:19,101 - INFO - Training completed successfully
+2025-06-23 08:09:24,342 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:09:24,397 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:09:31,497 - INFO - Preprocessor built with 36 features
+2025-06-23 08:09:31,497 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:09:31,504 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:09:32,890 - INFO - Preprocessor built with 36 features
+2025-06-23 08:09:32,890 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:09:32,900 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:09:32,907 - INFO - Initialized 4 models
+2025-06-23 08:09:33,047 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 08:09:35,854 - INFO - random_forest trained in 2.8s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:09:35,856 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 08:09:36,387 - INFO - xgboost trained in 0.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:09:36,387 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 08:09:37,117 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:09:37,119 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 08:09:56,181 - INFO - catboost trained in 19.1s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:09:56,247 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 08:09:56,247 - INFO - Training completed successfully
+2025-06-23 08:14:39,007 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:14:39,063 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:14:45,857 - INFO - Preprocessor built with 36 features
+2025-06-23 08:14:45,857 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:14:45,857 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:14:47,237 - INFO - Preprocessor built with 36 features
+2025-06-23 08:14:47,237 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:14:47,247 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:14:47,248 - INFO - Initialized 4 models
+2025-06-23 08:14:47,357 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 08:14:50,007 - INFO - random_forest trained in 2.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:14:50,007 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 08:14:50,567 - INFO - xgboost trained in 0.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:14:50,567 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 08:14:51,232 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:14:51,232 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 08:15:10,277 - INFO - catboost trained in 19.0s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:15:10,343 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 08:15:10,347 - INFO - Training completed successfully
+2025-06-23 08:59:00,061 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:59:00,120 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 08:59:06,843 - INFO - Preprocessor built with 36 features
+2025-06-23 08:59:06,846 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:59:06,851 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:59:08,236 - INFO - Preprocessor built with 36 features
+2025-06-23 08:59:08,236 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 08:59:08,246 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 08:59:08,254 - INFO - Initialized 4 models
+2025-06-23 08:59:08,386 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 08:59:11,096 - INFO - random_forest trained in 2.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:59:11,096 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 08:59:11,631 - INFO - xgboost trained in 0.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:59:11,637 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 08:59:12,370 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:59:12,371 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 08:59:31,829 - INFO - catboost trained in 19.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 08:59:32,041 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 08:59:32,041 - INFO - Training completed successfully
+2025-06-23 09:03:47,528 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:03:47,584 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:03:54,382 - INFO - Preprocessor built with 36 features
+2025-06-23 09:03:54,382 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:03:54,386 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:03:55,746 - INFO - Preprocessor built with 36 features
+2025-06-23 09:03:55,746 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:03:55,750 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:03:55,758 - INFO - Initialized 4 models
+2025-06-23 09:03:55,866 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 09:03:58,481 - INFO - random_forest trained in 2.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:03:58,481 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 09:03:59,011 - INFO - xgboost trained in 0.5s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:03:59,018 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 09:03:59,716 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:03:59,716 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 09:04:18,676 - INFO - catboost trained in 19.0s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:04:18,896 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 09:04:18,898 - INFO - Training completed successfully
+2025-06-23 09:07:23,480 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:07:23,539 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:07:30,360 - INFO - Preprocessor built with 36 features
+2025-06-23 09:07:30,360 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:07:30,368 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:07:31,686 - INFO - Preprocessor built with 36 features
+2025-06-23 09:07:31,686 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:07:31,695 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:07:31,703 - INFO - Initialized 4 models
+2025-06-23 09:07:31,811 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 09:07:34,454 - INFO - random_forest trained in 2.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:07:34,456 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 09:07:35,165 - INFO - xgboost trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:07:35,165 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 09:07:35,925 - INFO - lightgbm trained in 0.8s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:07:35,926 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 09:07:54,675 - INFO - catboost trained in 18.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:07:54,760 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 09:07:54,760 - INFO - Training completed successfully
+2025-06-23 09:22:33,480 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:22:33,568 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:22:40,584 - INFO - Preprocessor built with 36 features
+2025-06-23 09:22:40,586 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:22:40,588 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:22:42,000 - INFO - Preprocessor built with 36 features
+2025-06-23 09:22:42,000 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:22:42,008 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:22:42,010 - INFO - Initialized 4 models
+2025-06-23 09:22:42,166 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 09:22:44,795 - INFO - random_forest trained in 2.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:22:44,795 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 09:22:45,389 - INFO - xgboost trained in 0.6s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:22:45,392 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 09:22:46,065 - INFO - lightgbm trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:22:46,065 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 09:23:04,968 - INFO - catboost trained in 18.9s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:23:05,035 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 09:23:05,035 - INFO - Training completed successfully
+2025-06-23 09:26:17,116 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:26:17,173 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 09:26:24,345 - INFO - Preprocessor built with 36 features
+2025-06-23 09:26:24,345 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:26:24,354 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:26:25,699 - INFO - Preprocessor built with 36 features
+2025-06-23 09:26:25,699 - INFO - Loaded 28416 samples with 36 features
+2025-06-23 09:26:25,708 - INFO - Class balance:
+is_prospect
+0    0.808312
+1    0.191688
+Name: proportion, dtype: float64
+2025-06-23 09:26:25,715 - INFO - Initialized 4 models
+2025-06-23 09:26:25,835 - INFO - 
+==================================================
+Training random_forest
+==================================================
+2025-06-23 09:26:28,649 - INFO - random_forest trained in 2.8s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:26:28,649 - INFO - 
+==================================================
+Training xgboost
+==================================================
+2025-06-23 09:26:29,325 - INFO - xgboost trained in 0.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:26:29,325 - INFO - 
+==================================================
+Training lightgbm
+==================================================
+2025-06-23 09:26:30,305 - INFO - lightgbm trained in 1.0s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:26:30,305 - INFO - 
+==================================================
+Training catboost
+==================================================
+2025-06-23 09:26:49,965 - INFO - catboost trained in 19.7s
+Test AUC: 1.0000 | Test F1: 1.0000
+2025-06-23 09:26:50,026 - INFO - Artifacts saved to ..\models\prospect_classification_v2
+2025-06-23 09:26:50,026 - INFO - Training completed successfully

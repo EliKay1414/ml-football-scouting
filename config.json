@@ -1,0 +1,18 @@
+{
+  "paths": {
+    "models_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\models\\prospect_models_v1",
+    "test_data": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\features\\test_features.csv",
+    "output_dir": "C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\comparison_results"
+  },
+  "scouting_metrics": {
+    "key_attributes": [
+      "potential",
+      "value_eur",
+      "age"
+    ],
+    "success_threshold": 0.7,
+    "top_n_players": 50,
+    "cost_of_miss": 5000000,
+    "cost_of_false_alarm": 2000000
+  }
+}

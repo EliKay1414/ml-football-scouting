@@ -1,0 +1,226 @@
+2025-06-16 07:30:57,953 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 07:30:58,060 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 07:43:39,287 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 07:43:39,408 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 07:50:10,589 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 07:50:10,682 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 08:09:34,666 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 08:09:34,759 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 08:33:40,075 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 08:33:40,182 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 08:33:42,795 - INFO - Initialized 6 regression and 6 classification models
+2025-06-16 08:33:43,405 - INFO - Loaded data with 99455 samples and 13 features
+2025-06-16 08:33:43,512 - INFO - Training regression model: random_forest
+2025-06-16 08:40:57,119 - INFO - random_forest regression performance: {'mae': 0.07913076613582154, 'rmse': np.float64(0.2932606913177925), 'r2': 0.9185463125863836, 'cv_mean': np.float64(-0.07847501142628313), 'cv_std': np.float64(0.0017584446828965519)}
+2025-06-16 08:40:57,165 - INFO - Training regression model: xgboost
+2025-06-16 08:41:01,839 - INFO - xgboost regression performance: {'mae': 0.07476029618355128, 'rmse': np.float64(0.28786119125203974), 'r2': 0.9215181416236421, 'cv_mean': np.float64(-0.07439387919578629), 'cv_std': np.float64(0.0018588430220591835)}
+2025-06-16 08:41:01,854 - INFO - Training regression model: lightgbm
+2025-06-16 08:41:06,260 - INFO - lightgbm regression performance: {'mae': 0.07847619978902047, 'rmse': np.float64(0.27915443516488003), 'r2': 0.9261939256999554, 'cv_mean': np.float64(-0.07749200409269044), 'cv_std': np.float64(0.0012055592023426296)}
+2025-06-16 08:41:06,260 - INFO - Training regression model: catboost
+2025-06-16 08:42:29,308 - INFO - catboost regression performance: {'mae': 0.07447999467032015, 'rmse': np.float64(0.2732623505502164), 'r2': 0.9292766797937356, 'cv_mean': np.float64(-0.07390203642401184), 'cv_std': np.float64(0.0017230470010711795)}
+2025-06-16 08:42:29,308 - INFO - Training regression model: gradient_boosting
+2025-06-16 08:43:59,268 - INFO - gradient_boosting regression performance: {'mae': 0.08904560627960294, 'rmse': np.float64(0.29879830466282836), 'r2': 0.9154411048858868, 'cv_mean': np.float64(-0.08702575023385577), 'cv_std': np.float64(0.0014335912373771896)}
+2025-06-16 08:43:59,268 - INFO - Training regression model: stacking
+2025-06-16 09:03:20,860 - INFO - stacking regression performance: {'mae': 0.07479382771298154, 'rmse': np.float64(0.2880895248770092), 'r2': 0.9213935874640737, 'cv_mean': np.float64(-0.07466472634523191), 'cv_std': np.float64(0.002100036559148508)}
+2025-06-16 09:03:20,860 - INFO - Training classification model: random_forest
+2025-06-16 09:04:18,298 - ERROR - Failed to train random_forest classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 09:04:18,298 - INFO - Training classification model: xgboost
+2025-06-16 09:04:22,315 - ERROR - Failed to train xgboost classification model: Feature shape mismatch, expected: 13, got 1
+2025-06-16 09:04:22,315 - INFO - Training classification model: lightgbm
+2025-06-16 09:04:27,824 - ERROR - Failed to train lightgbm classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 09:04:27,824 - INFO - Training classification model: catboost
+2025-06-16 09:06:29,527 - ERROR - Failed to train catboost classification model: too many indices for array: array is 1-dimensional, but 2 were indexed
+2025-06-16 09:06:29,527 - INFO - Training classification model: logistic
+2025-06-16 09:06:30,555 - ERROR - Failed to train logistic classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 09:06:30,555 - INFO - Training classification model: stacking
+2025-06-16 09:09:44,068 - ERROR - Failed to train stacking classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 09:09:51,248 - INFO - Saved artifacts to ..\models and ..\reports
+2025-06-16 09:42:02,817 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 09:42:02,940 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 09:42:04,940 - INFO - Initialized 6 regression and 6 classification models
+2025-06-16 09:42:05,433 - INFO - Loaded data with 99455 samples and 13 features
+2025-06-16 09:42:05,501 - INFO - Training regression model: random_forest
+2025-06-16 09:49:06,233 - INFO - random_forest regression performance: {'mae': 0.07882278469621475, 'rmse': np.float64(0.2948580682830873), 'r2': 0.9176565472311093, 'cv_mean': np.float64(-0.07827864094397677), 'cv_std': np.float64(0.001609507487921969)}
+2025-06-16 09:49:06,233 - INFO - Training regression model: xgboost
+2025-06-16 09:49:09,694 - INFO - xgboost regression performance: {'mae': 0.07476029618355128, 'rmse': np.float64(0.28786119125203974), 'r2': 0.9215181416236421, 'cv_mean': np.float64(-0.07439387919578629), 'cv_std': np.float64(0.0018588430220591835)}
+2025-06-16 09:49:09,694 - INFO - Training regression model: lightgbm
+2025-06-16 09:49:13,881 - INFO - lightgbm regression performance: {'mae': 0.07847619978902047, 'rmse': np.float64(0.27915443516488003), 'r2': 0.9261939256999554, 'cv_mean': np.float64(-0.07749200409269044), 'cv_std': np.float64(0.0012055592023426296)}
+2025-06-16 09:49:13,883 - INFO - Training regression model: catboost
+2025-06-16 09:50:37,635 - INFO - catboost regression performance: {'mae': 0.07447999467032015, 'rmse': np.float64(0.2732623505502164), 'r2': 0.9292766797937356, 'cv_mean': np.float64(-0.07390203642401184), 'cv_std': np.float64(0.0017230470010711795)}
+2025-06-16 09:50:37,635 - INFO - Training regression model: gradient_boosting
+2025-06-16 09:52:05,374 - INFO - gradient_boosting regression performance: {'mae': 0.08898221674199518, 'rmse': np.float64(0.2982670453392782), 'r2': 0.9157415267071747, 'cv_mean': np.float64(-0.08701177492923931), 'cv_std': np.float64(0.0014306177378007388)}
+2025-06-16 09:52:05,374 - INFO - Training regression model: stacking
+2025-06-16 10:10:47,482 - INFO - stacking regression performance: {'mae': 0.07544498150949266, 'rmse': np.float64(0.29674491775876694), 'r2': 0.9165993143676417, 'cv_mean': np.float64(-0.0747357309517765), 'cv_std': np.float64(0.001917748866976923)}
+2025-06-16 10:10:47,482 - INFO - Training classification model: random_forest
+2025-06-16 10:11:41,934 - ERROR - Failed to train random_forest classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 10:11:41,934 - INFO - Training classification model: xgboost
+2025-06-16 10:11:45,699 - ERROR - Failed to train xgboost classification model: Feature shape mismatch, expected: 13, got 1
+2025-06-16 10:11:45,699 - INFO - Training classification model: lightgbm
+2025-06-16 10:11:50,932 - ERROR - Failed to train lightgbm classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 10:11:50,932 - INFO - Training classification model: catboost
+2025-06-16 10:13:47,803 - ERROR - Failed to train catboost classification model: too many indices for array: array is 1-dimensional, but 2 were indexed
+2025-06-16 10:13:47,803 - INFO - Training classification model: logistic
+2025-06-16 10:13:48,756 - ERROR - Failed to train logistic classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 10:13:48,757 - INFO - Training classification model: stacking
+2025-06-16 10:16:50,544 - ERROR - Failed to train stacking classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 10:16:56,202 - INFO - Saved artifacts to ..\models and ..\reports
+2025-06-16 10:51:56,214 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 10:51:56,307 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 10:51:58,296 - INFO - Initialized 6 regression and 6 classification models
+2025-06-16 10:51:58,686 - INFO - Loaded data with 99455 samples and 13 features
+2025-06-16 10:51:58,749 - INFO - Training regression model: random_forest
+2025-06-16 10:59:06,523 - INFO - random_forest regression performance: {'mae': 0.07873295037333798, 'rmse': np.float64(0.291245455349156), 'r2': 0.9196619370529839, 'cv_mean': np.float64(-0.07813763448111301), 'cv_std': np.float64(0.0015680362329395351)}
+2025-06-16 10:59:06,524 - INFO - Training regression model: xgboost
+2025-06-16 10:59:09,873 - INFO - xgboost regression performance: {'mae': 0.07476029618355128, 'rmse': np.float64(0.28786119125203974), 'r2': 0.9215181416236421, 'cv_mean': np.float64(-0.07439387919578629), 'cv_std': np.float64(0.0018588430220591835)}
+2025-06-16 10:59:09,874 - INFO - Training regression model: lightgbm
+2025-06-16 10:59:13,755 - INFO - lightgbm regression performance: {'mae': 0.07847619978902047, 'rmse': np.float64(0.27915443516488003), 'r2': 0.9261939256999554, 'cv_mean': np.float64(-0.07749200409269044), 'cv_std': np.float64(0.0012055592023426296)}
+2025-06-16 10:59:13,757 - INFO - Training regression model: catboost
+2025-06-16 11:00:35,596 - INFO - catboost regression performance: {'mae': 0.07447999467032015, 'rmse': np.float64(0.2732623505502164), 'r2': 0.9292766797937356, 'cv_mean': np.float64(-0.07390203642401184), 'cv_std': np.float64(0.0017230470010711795)}
+2025-06-16 11:00:35,598 - INFO - Training regression model: gradient_boosting
+2025-06-16 11:02:04,848 - INFO - gradient_boosting regression performance: {'mae': 0.08906819470326623, 'rmse': np.float64(0.29899769707686663), 'r2': 0.91532821249288, 'cv_mean': np.float64(-0.08703627218023721), 'cv_std': np.float64(0.0014039354737849917)}
+2025-06-16 11:02:04,849 - INFO - Training regression model: stacking
+2025-06-16 11:21:27,383 - INFO - stacking regression performance: {'mae': 0.07521095600210399, 'rmse': np.float64(0.29500378578402975), 'r2': 0.9175751396093168, 'cv_mean': np.float64(-0.0746453399668631), 'cv_std': np.float64(0.002005297006760123)}
+2025-06-16 11:21:27,386 - INFO - Training classification model: random_forest
+2025-06-16 11:22:24,300 - ERROR - Failed to train random_forest classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 11:22:24,301 - INFO - Training classification model: xgboost
+2025-06-16 11:22:28,017 - ERROR - Failed to train xgboost classification model: Feature shape mismatch, expected: 13, got 1
+2025-06-16 11:22:28,019 - INFO - Training classification model: lightgbm
+2025-06-16 11:22:33,739 - ERROR - Failed to train lightgbm classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 11:22:33,740 - INFO - Training classification model: catboost
+2025-06-16 11:24:35,437 - ERROR - Failed to train catboost classification model: too many indices for array: array is 1-dimensional, but 2 were indexed
+2025-06-16 11:24:35,438 - INFO - Training classification model: logistic
+2025-06-16 11:24:36,480 - ERROR - Failed to train logistic classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 11:24:36,481 - INFO - Training classification model: stacking
+2025-06-16 11:27:46,241 - ERROR - Failed to train stacking classification model: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+2025-06-16 11:27:54,995 - INFO - Saved artifacts to ..\models and ..\reports
+2025-06-16 13:37:48,808 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 13:37:48,897 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 13:37:50,854 - INFO - Initialized 6 regression and 6 classification models
+2025-06-16 13:37:53,572 - ERROR - Data loading failed: A given column is not a column of the dataframe
+2025-06-16 13:53:44,726 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 13:53:44,811 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-16 13:53:46,743 - INFO - Initialized 6 regression and 6 classification models
+2025-06-16 13:53:49,266 - ERROR - Data loading failed: A given column is not a column of the dataframe
+2025-06-17 11:48:41,787 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 11:48:41,885 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 11:48:44,105 - INFO - Initialized 6 regression and 6 classification models
+2025-06-17 11:48:47,149 - ERROR - Data loading failed: A given column is not a column of the dataframe
+2025-06-17 12:14:11,630 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 12:14:11,747 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 12:14:13,915 - INFO - Initialized 6 regression and 6 classification models
+2025-06-17 12:14:16,403 - ERROR - Data loading failed: Target columns missing: ['is_prospect']
+2025-06-17 13:30:31,558 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 13:30:31,676 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 13:30:33,731 - INFO - Initialized 6 regression and 6 classification models
+2025-06-17 13:30:37,971 - INFO - Available features: ['age', 'height_cm', 'weight_kg', 'overall', 'potential', 'wage_eur', 'weak_foot', 'skill_moves', 'international_reputation', 'pace', 'shooting', 'passing', 'dribbling', 'defending', 'physic', 'growth_potential', 'physical_score', 'technical_score', 'mental_score', 'attack_defense_ratio', 'value_per_wage', 'value_per_overall', 'potential_growth', 'league_adjusted_overall', 'league_adjusted_potential', 'specialization_score', 'age_adjusted_performance', 'composite_rating', 'defensive_midfielder_score', 'attacking_midfielder_score', 'striker_score', 'preferred_foot_LEFT', 'preferred_foot_RIGHT', 'work_rate_attack_nan', 'work_rate_defense_nan', 'is_goalkeeper_0', 'is_goalkeeper_1', 'is_defender_0', 'is_defender_1', 'is_midfielder_0', 'is_midfielder_1', 'is_forward_0', 'is_forward_1', 'is_lean_0', 'is_lean_1', 'is_stocky_0', 'is_stocky_1', 'is_normal_0', 'is_normal_1', 'goalkeeping_speed', 'mentality_vision', 'defending_standing_tackle', 'league_level', 'skill_ball_control', 'nationality_name', 'power_stamina', 'skill_long_passing', 'power_jumping', 'goalkeeping_positioning', 'short_name', 'attacking_short_passing', 'movement_sprint_speed', 'goalkeeping_handling', 'skill_fk_accuracy', 'league_name', 'is_veteran', 'mentality_aggression', 'movement_agility', 'skill_dribbling', 'is_peak_player', 'power_strength', 'goalkeeping_reflexes', 'year', 'movement_acceleration', 'skill_curve', 'power_shot_power', 'goalkeeping_kicking', 'attacking_volleys', 'attacking_crossing', 'mentality_penalties', 'movement_reactions', 'body_type', 'goalkeeping_diving', 'attacking_heading_accuracy', 'foot_balance', 'mentality_interceptions', 'player_positions', 'attacking_finishing', 'mentality_composure', 'power_long_shots', 'defending_marking_awareness', 'mentality_positioning', 'club_name', 'movement_balance', 'work_rate', 'club_position', 'sofifa_id', 'defending_sliding_tackle']
+2025-06-17 13:30:37,972 - WARNING - Missing categorical features: {'preferred_foot', 'nationality'}
+2025-06-17 13:30:39,063 - INFO - Loaded data with 85247 samples and 98 features
+2025-06-17 13:30:39,903 - INFO - Training regression model: random_forest
+2025-06-17 13:30:39,908 - ERROR - Failed to train random_forest regression model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:39,911 - INFO - Training regression model: xgboost
+2025-06-17 13:30:39,929 - ERROR - Failed to train xgboost regression model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:39,930 - INFO - Training regression model: lightgbm
+2025-06-17 13:30:40,307 - ERROR - Failed to train lightgbm regression model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,309 - INFO - Training regression model: catboost
+2025-06-17 13:30:40,335 - ERROR - Failed to train catboost regression model: Bad value for num_feature[non_default_doc_idx=0,feature_idx=63]="Republic of Ireland": Cannot convert 'Republic of Ireland' to float
+2025-06-17 13:30:40,338 - INFO - Training regression model: gradient_boosting
+2025-06-17 13:30:40,347 - ERROR - Failed to train gradient_boosting regression model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,349 - INFO - Training regression model: stacking
+2025-06-17 13:30:40,363 - ERROR - Failed to train stacking regression model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,365 - INFO - Training classification model: random_forest
+2025-06-17 13:30:40,373 - ERROR - Failed to train random_forest classification model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,373 - INFO - Training classification model: xgboost
+2025-06-17 13:30:40,388 - ERROR - Failed to train xgboost classification model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,389 - INFO - Training classification model: lightgbm
+2025-06-17 13:30:40,408 - ERROR - Failed to train lightgbm classification model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,409 - INFO - Training classification model: catboost
+2025-06-17 13:30:40,415 - ERROR - Failed to train catboost classification model: Bad value for num_feature[non_default_doc_idx=0,feature_idx=63]="Republic of Ireland": Cannot convert 'Republic of Ireland' to float
+2025-06-17 13:30:40,421 - INFO - Training classification model: logistic
+2025-06-17 13:30:40,430 - ERROR - Failed to train logistic classification model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,432 - INFO - Training classification model: stacking
+2025-06-17 13:30:40,452 - ERROR - Failed to train stacking classification model: could not convert string to float: 'Republic of Ireland'
+2025-06-17 13:30:40,464 - INFO - Saved artifacts to ..\models
+2025-06-17 13:30:40,466 - INFO - Training completed successfully
+2025-06-17 13:45:31,849 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 13:45:31,935 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 13:45:34,070 - INFO - Initialized 6 regression and 6 classification models
+2025-06-17 13:45:38,294 - INFO - Available features: ['age', 'height_cm', 'weight_kg', 'overall', 'potential', 'wage_eur', 'weak_foot', 'skill_moves', 'international_reputation', 'pace', 'shooting', 'passing', 'dribbling', 'defending', 'physic', 'growth_potential', 'physical_score', 'technical_score', 'mental_score', 'attack_defense_ratio', 'value_per_wage', 'value_per_overall', 'potential_growth', 'league_adjusted_overall', 'league_adjusted_potential', 'specialization_score', 'age_adjusted_performance', 'composite_rating', 'defensive_midfielder_score', 'attacking_midfielder_score', 'striker_score', 'preferred_foot_LEFT', 'preferred_foot_RIGHT', 'work_rate_attack_nan', 'work_rate_defense_nan', 'is_goalkeeper_0', 'is_goalkeeper_1', 'is_defender_0', 'is_defender_1', 'is_midfielder_0', 'is_midfielder_1', 'is_forward_0', 'is_forward_1', 'is_lean_0', 'is_lean_1', 'is_stocky_0', 'is_stocky_1', 'is_normal_0', 'is_normal_1', 'goalkeeping_speed', 'mentality_vision', 'defending_standing_tackle', 'league_level', 'skill_ball_control', 'nationality_name', 'power_stamina', 'skill_long_passing', 'power_jumping', 'goalkeeping_positioning', 'short_name', 'attacking_short_passing', 'movement_sprint_speed', 'goalkeeping_handling', 'skill_fk_accuracy', 'league_name', 'is_veteran', 'mentality_aggression', 'movement_agility', 'skill_dribbling', 'is_peak_player', 'power_strength', 'goalkeeping_reflexes', 'year', 'movement_acceleration', 'skill_curve', 'power_shot_power', 'goalkeeping_kicking', 'attacking_volleys', 'attacking_crossing', 'mentality_penalties', 'movement_reactions', 'body_type', 'goalkeeping_diving', 'attacking_heading_accuracy', 'foot_balance', 'mentality_interceptions', 'player_positions', 'attacking_finishing', 'mentality_composure', 'power_long_shots', 'defending_marking_awareness', 'mentality_positioning', 'club_name', 'movement_balance', 'work_rate', 'club_position', 'sofifa_id', 'defending_sliding_tackle']
+2025-06-17 13:45:38,318 - INFO - Using numeric features: ['age', 'height_cm', 'weight_kg', 'overall', 'potential']
+2025-06-17 13:45:38,320 - INFO - Using categorical features: ['nationality_name', 'short_name', 'league_name', 'body_type', 'player_positions', 'club_name', 'work_rate']
+2025-06-17 13:45:38,997 - ERROR - Data loading failed: Unable to allocate 24.1 GiB for an array with shape (85247, 37873) and data type float64
+2025-06-17 16:46:55,487 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 16:46:55,602 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 16:46:57,541 - INFO - Initialized 6 regression and 6 classification models
+2025-06-17 16:47:01,775 - INFO - Available features: ['age', 'height_cm', 'weight_kg', 'overall', 'potential', 'wage_eur', 'weak_foot', 'skill_moves', 'international_reputation', 'pace', 'shooting', 'passing', 'dribbling', 'defending', 'physic', 'growth_potential', 'physical_score', 'technical_score', 'mental_score', 'attack_defense_ratio', 'value_per_wage', 'value_per_overall', 'potential_growth', 'league_adjusted_overall', 'league_adjusted_potential', 'specialization_score', 'age_adjusted_performance', 'composite_rating', 'defensive_midfielder_score', 'attacking_midfielder_score', 'striker_score', 'preferred_foot_LEFT', 'preferred_foot_RIGHT', 'work_rate_attack_nan', 'work_rate_defense_nan', 'is_goalkeeper_0', 'is_goalkeeper_1', 'is_defender_0', 'is_defender_1', 'is_midfielder_0', 'is_midfielder_1', 'is_forward_0', 'is_forward_1', 'is_lean_0', 'is_lean_1', 'is_stocky_0', 'is_stocky_1', 'is_normal_0', 'is_normal_1', 'goalkeeping_speed', 'mentality_vision', 'defending_standing_tackle', 'league_level', 'skill_ball_control', 'nationality_name', 'power_stamina', 'skill_long_passing', 'power_jumping', 'goalkeeping_positioning', 'short_name', 'attacking_short_passing', 'movement_sprint_speed', 'goalkeeping_handling', 'skill_fk_accuracy', 'league_name', 'is_veteran', 'mentality_aggression', 'movement_agility', 'skill_dribbling', 'is_peak_player', 'power_strength', 'goalkeeping_reflexes', 'year', 'movement_acceleration', 'skill_curve', 'power_shot_power', 'goalkeeping_kicking', 'attacking_volleys', 'attacking_crossing', 'mentality_penalties', 'movement_reactions', 'body_type', 'goalkeeping_diving', 'attacking_heading_accuracy', 'foot_balance', 'mentality_interceptions', 'player_positions', 'attacking_finishing', 'mentality_composure', 'power_long_shots', 'defending_marking_awareness', 'mentality_positioning', 'club_name', 'movement_balance', 'work_rate', 'club_position', 'sofifa_id', 'defending_sliding_tackle']
+2025-06-17 16:47:01,804 - INFO - Using numeric features: ['age', 'height_cm', 'weight_kg', 'overall', 'potential']
+2025-06-17 16:47:01,804 - INFO - Using categorical features: ['work_rate']
+2025-06-17 16:47:01,804 - INFO - Excluding high-cardinality features: ['nationality_name', 'short_name', 'player_positions', 'club_name', 'league_name', 'body_type']
+2025-06-17 16:47:01,977 - INFO - Loaded data with 85247 samples and 98 features
+2025-06-17 16:47:02,149 - INFO - Training regression model: random_forest
+2025-06-17 17:13:57,739 - INFO - Best params for random_forest: {'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 200}
+2025-06-17 17:15:37,526 - INFO - random_forest regression model trained. CV scores: [0.87615249 0.90407665 0.91905513 0.8915207  0.9070441 ]
+2025-06-17 17:15:37,526 - INFO - Training regression model: xgboost
+2025-06-17 17:15:57,287 - INFO - Best params for xgboost: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2025-06-17 17:15:58,452 - INFO - xgboost regression model trained. CV scores: [0.87273063 0.90919107 0.92056178 0.90250071 0.91292624]
+2025-06-17 17:15:58,452 - INFO - Training regression model: lightgbm
+2025-06-17 17:16:01,538 - INFO - lightgbm regression model trained. CV scores: [0.88677006 0.90526754 0.91076388 0.88426478 0.90613814]
+2025-06-17 17:16:01,539 - INFO - Training regression model: catboost
+2025-06-17 17:17:16,866 - INFO - catboost regression model trained. CV scores: [0.85934121 0.9072334  0.91673452 0.88911507 0.90491533]
+2025-06-17 17:17:16,866 - INFO - Training regression model: gradient_boosting
+2025-06-17 17:17:59,352 - INFO - gradient_boosting regression model trained. CV scores: [0.87742535 0.90138935 0.92243997 0.8970661  0.9124626 ]
+2025-06-17 17:17:59,352 - INFO - Training regression model: stacking
+2025-06-17 17:28:06,012 - INFO - stacking regression model trained. CV scores: [0.87119061 0.90037745 0.89502491 0.88869983 0.90038655]
+2025-06-17 17:28:06,012 - INFO - Training classification model: random_forest
+2025-06-17 17:32:05,493 - INFO - Best params for random_forest: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+2025-06-17 17:32:44,593 - INFO - random_forest classification model trained. CV scores: [0.99692082 0.99765396 0.99670064 0.99633404 0.99736051]
+2025-06-17 17:32:44,593 - INFO - Training classification model: xgboost
+2025-06-17 17:33:04,363 - INFO - Best params for xgboost: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 200}
+2025-06-17 17:33:10,112 - INFO - xgboost classification model trained. CV scores: [0.99985337 0.99978006 0.99956009 0.99978004 0.99992668]
+2025-06-17 17:33:10,112 - INFO - Training classification model: lightgbm
+2025-06-17 17:33:14,925 - INFO - lightgbm classification model trained. CV scores: [0.99978006 0.99978006 0.99978004 0.99985336 1.        ]
+2025-06-17 17:33:14,927 - INFO - Training classification model: catboost
+2025-06-17 17:35:15,055 - INFO - catboost classification model trained. CV scores: [0.99978006 0.99985337 0.99970672 0.99985336 1.        ]
+2025-06-17 17:35:15,056 - INFO - Training classification model: logistic
+2025-06-17 17:35:15,900 - INFO - logistic classification model trained. CV scores: [0.97822581 0.9776393  0.97712442 0.97771098 0.97712442]
+2025-06-17 17:35:15,902 - INFO - Training classification model: stacking
+2025-06-17 17:36:43,818 - INFO - stacking classification model trained. CV scores: [0.99978006 0.99978006 0.99970672 0.99985336 1.        ]
+2025-06-17 17:36:45,798 - INFO - Saved artifacts to ..\models
+2025-06-17 17:36:45,802 - INFO - Training completed successfully
+2025-06-19 02:15:07,673 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-19 02:15:07,800 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-19 02:15:10,829 - INFO - Initialized 6 regression and 6 classification models
+2025-06-19 02:15:16,052 - INFO - Available features: ['age', 'height_cm', 'weight_kg', 'overall', 'potential', 'wage_eur', 'weak_foot', 'skill_moves', 'international_reputation', 'pace', 'shooting', 'passing', 'dribbling', 'defending', 'physic', 'growth_potential', 'physical_score', 'technical_score', 'mental_score', 'attack_defense_ratio', 'value_per_wage', 'value_per_overall', 'potential_growth', 'league_adjusted_overall', 'league_adjusted_potential', 'specialization_score', 'age_adjusted_performance', 'composite_rating', 'defensive_midfielder_score', 'attacking_midfielder_score', 'striker_score', 'preferred_foot_LEFT', 'preferred_foot_RIGHT', 'work_rate_attack_nan', 'work_rate_defense_nan', 'is_goalkeeper_0', 'is_goalkeeper_1', 'is_defender_0', 'is_defender_1', 'is_midfielder_0', 'is_midfielder_1', 'is_forward_0', 'is_forward_1', 'is_lean_0', 'is_lean_1', 'is_stocky_0', 'is_stocky_1', 'is_normal_0', 'is_normal_1', 'goalkeeping_speed', 'mentality_vision', 'defending_standing_tackle', 'league_level', 'skill_ball_control', 'nationality_name', 'power_stamina', 'skill_long_passing', 'power_jumping', 'goalkeeping_positioning', 'short_name', 'attacking_short_passing', 'movement_sprint_speed', 'goalkeeping_handling', 'skill_fk_accuracy', 'league_name', 'is_veteran', 'mentality_aggression', 'movement_agility', 'skill_dribbling', 'is_peak_player', 'power_strength', 'goalkeeping_reflexes', 'year', 'movement_acceleration', 'skill_curve', 'power_shot_power', 'goalkeeping_kicking', 'attacking_volleys', 'attacking_crossing', 'mentality_penalties', 'movement_reactions', 'body_type', 'goalkeeping_diving', 'attacking_heading_accuracy', 'foot_balance', 'mentality_interceptions', 'player_positions', 'attacking_finishing', 'mentality_composure', 'power_long_shots', 'defending_marking_awareness', 'mentality_positioning', 'club_name', 'movement_balance', 'work_rate', 'club_position', 'sofifa_id', 'defending_sliding_tackle']
+2025-06-19 02:15:16,087 - INFO - Using numeric features: ['age', 'height_cm', 'weight_kg', 'overall', 'potential']
+2025-06-19 02:15:16,088 - INFO - Using categorical features: ['work_rate']
+2025-06-19 02:15:16,091 - INFO - Excluding high-cardinality features: ['nationality_name', 'short_name', 'player_positions', 'club_name', 'league_name', 'body_type']
+2025-06-19 02:15:16,288 - INFO - Loaded data with 85247 samples and 98 features
+2025-06-19 02:15:16,571 - INFO - Training regression model: random_forest
+2025-06-19 02:53:25,631 - INFO - Best params for random_forest: {'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 200}
+2025-06-19 02:56:03,864 - INFO - random_forest regression model trained. CV scores: [0.87735149 0.90298534 0.92139445 0.89099457 0.90852039]
+2025-06-19 02:56:03,864 - INFO - Training regression model: xgboost
+2025-06-19 02:56:31,671 - INFO - Best params for xgboost: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+2025-06-19 02:56:33,421 - INFO - xgboost regression model trained. CV scores: [0.87273063 0.90919107 0.92056178 0.90250071 0.91292624]
+2025-06-19 02:56:33,421 - INFO - Training regression model: lightgbm
+2025-06-19 02:56:38,232 - INFO - lightgbm regression model trained. CV scores: [0.88677006 0.90526754 0.91076388 0.88426478 0.90613814]
+2025-06-19 02:56:38,232 - INFO - Training regression model: catboost
+2025-06-19 02:58:25,715 - INFO - catboost regression model trained. CV scores: [0.85934121 0.9072334  0.91673452 0.88911507 0.90491533]
+2025-06-19 02:58:25,717 - INFO - Training regression model: gradient_boosting
+2025-06-19 02:59:24,582 - INFO - gradient_boosting regression model trained. CV scores: [0.87842684 0.90138935 0.92235056 0.8969198  0.91382783]
+2025-06-19 02:59:24,583 - INFO - Training regression model: stacking
+2025-06-19 03:13:10,198 - INFO - stacking regression model trained. CV scores: [0.8781175  0.90171244 0.89481069 0.88692926 0.90064914]
+2025-06-19 03:13:10,198 - INFO - Training classification model: random_forest
+2025-06-19 03:18:33,740 - INFO - Best params for random_forest: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+2025-06-19 03:19:09,247 - INFO - random_forest classification model trained. CV scores: [0.99692082 0.99750733 0.9969206  0.99648068 0.99743383]
+2025-06-19 03:19:09,247 - INFO - Training classification model: xgboost
+2025-06-19 03:19:36,039 - INFO - Best params for xgboost: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 200}
+2025-06-19 03:19:41,100 - INFO - xgboost classification model trained. CV scores: [0.99985337 0.99978006 0.99956009 0.99978004 0.99992668]
+2025-06-19 03:19:41,100 - INFO - Training classification model: lightgbm
+2025-06-19 03:19:45,756 - INFO - lightgbm classification model trained. CV scores: [0.99978006 0.99978006 0.99978004 0.99985336 1.        ]
+2025-06-19 03:19:45,756 - INFO - Training classification model: catboost
+2025-06-19 03:22:20,406 - INFO - catboost classification model trained. CV scores: [0.99978006 0.99985337 0.99970672 0.99985336 1.        ]
+2025-06-19 03:22:20,406 - INFO - Training classification model: logistic
+2025-06-19 03:22:21,343 - INFO - logistic classification model trained. CV scores: [0.97822581 0.9776393  0.97712442 0.97771098 0.97712442]
+2025-06-19 03:22:21,343 - INFO - Training classification model: stacking
+2025-06-19 03:24:02,993 - INFO - stacking classification model trained. CV scores: [0.99978006 0.99978006 0.99970672 0.99985336 1.        ]
+2025-06-19 03:24:05,102 - INFO - Saved artifacts to ..\models
+2025-06-19 03:24:05,102 - INFO - Training completed successfully

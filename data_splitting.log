@@ -1,0 +1,21 @@
+2025-06-14 05:11:14,479 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\processed\\fifa_players_processed.csv'
+2025-06-14 05:12:26,811 - INFO - Successfully loaded data with shape (142079, 64)
+2025-06-14 05:12:26,811 - WARNING - Missing target columns: ['is_prospect']
+2025-06-14 05:12:26,811 - INFO - Splitting data with stratification on: overall
+2025-06-14 05:12:27,365 - INFO - Split sizes - Train: 85247, Val: 28416, Test: 28416
+2025-06-14 05:12:32,061 - INFO - Saved splits to C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\splits
+2025-06-17 11:44:06,197 - INFO - Successfully loaded data with shape (142079, 64)
+2025-06-17 11:44:06,201 - WARNING - Missing target columns: ['is_prospect']
+2025-06-17 11:44:06,203 - INFO - Splitting data with stratification on: overall
+2025-06-17 11:44:06,903 - INFO - Split sizes - Train: 85247, Val: 28416, Test: 28416
+2025-06-17 11:44:13,101 - INFO - Saved splits to C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\splits
+2025-06-17 11:45:14,850 - INFO - Successfully loaded data with shape (142079, 64)
+2025-06-17 11:45:14,851 - WARNING - Missing target columns: ['is_prospect']
+2025-06-17 11:45:14,853 - INFO - Splitting data with stratification on: overall
+2025-06-17 11:45:15,589 - INFO - Split sizes - Train: 85247, Val: 28416, Test: 28416
+2025-06-17 11:45:22,235 - INFO - Saved splits to C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\splits
+2025-06-17 12:47:29,441 - ERROR - Failed to load data: [Errno 22] Invalid argument: 'C:\\Users\\Nanaba\\Desktop\\football_player_scouting_ml\\data\\processed\\processed\x0cifa_players_engineered.csv'
+2025-06-17 12:53:04,266 - INFO - Successfully loaded data with shape (142079, 100)
+2025-06-17 12:53:04,276 - INFO - Splitting data with stratification on: overall
+2025-06-17 12:53:05,165 - INFO - Split sizes - Train: 85247, Val: 28416, Test: 28416
+2025-06-17 12:53:23,776 - INFO - Saved splits to C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\splits

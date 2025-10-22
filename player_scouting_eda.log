@@ -1,0 +1,88 @@
+2025-06-09 15:53:22,660 - ProcessedDataEDA - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 15:53:23,261 - ProcessedDataEDA - INFO - Successfully loaded 142079 records
+2025-06-09 15:53:23,267 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-09 15:54:56,876 - ProcessedDataEDA - INFO - Completed numerical distributions analysis
+2025-06-09 15:54:56,876 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-09 16:32:45,615 - ProcessedDataEDA - INFO - Completed categorical distributions analysis
+2025-06-09 16:32:45,630 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-09 16:32:54,083 - ProcessedDataEDA - INFO - Completed target variables analysis
+2025-06-09 17:09:46,002 - ProcessedDataEDA - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 17:09:46,002 - ProcessedDataEDA - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 17:09:46,450 - ProcessedDataEDA - INFO - Successfully loaded 142079 records
+2025-06-09 17:09:46,450 - ProcessedDataEDA - INFO - Successfully loaded 142079 records
+2025-06-09 17:09:46,755 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-09 17:09:46,755 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-09 17:11:27,003 - ProcessedDataEDA - INFO - Completed numerical distributions analysis
+2025-06-09 17:11:27,003 - ProcessedDataEDA - INFO - Completed numerical distributions analysis
+2025-06-09 17:11:27,007 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-09 17:11:27,007 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-09 19:11:47,587 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 19:11:48,022 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-09 19:11:48,030 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-09 19:12:21,297 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-09 19:12:58,321 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-10 00:09:54,055 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-10 00:09:54,055 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-10 00:09:54,723 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-10 00:09:54,723 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-10 00:09:54,891 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-10 00:09:54,891 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-10 00:10:40,681 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-10 00:10:40,681 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-10 00:11:38,621 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-10 00:11:38,621 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-10 00:17:05,212 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-10 00:17:05,212 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-10 00:17:05,212 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-10 00:17:05,490 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-10 00:17:05,490 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-10 00:17:05,490 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-10 00:17:05,509 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-10 00:17:05,509 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-10 00:17:05,509 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-10 00:18:24,099 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-10 00:18:24,447 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-10 00:18:24,455 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-10 00:19:04,275 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-10 00:19:57,298 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-10 00:24:03,803 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-10 00:24:04,138 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-10 00:24:04,154 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-10 00:24:43,251 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-10 00:25:36,421 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-11 02:24:50,080 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:24:50,405 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-11 02:24:50,408 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-11 02:25:22,123 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-11 02:26:03,983 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-11 02:31:59,574 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:31:59,574 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:31:59,838 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-11 02:31:59,838 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-11 02:31:59,857 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-11 02:31:59,857 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-11 02:32:31,644 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-11 02:32:31,644 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-11 02:33:13,818 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-11 02:33:13,818 - ProcessedDataEDA - INFO - Starting target variables analysis
+2025-06-11 02:33:49,093 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:33:49,366 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-11 02:38:49,458 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:38:49,766 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-11 02:43:25,277 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:43:25,588 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-11 02:50:29,454 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:50:29,737 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-11 02:56:25,044 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-11 02:56:25,345 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-12 16:19:05,275 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.csv
+2025-06-12 16:19:05,582 - ProcessedDataEDA - ERROR - Data loading failed: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2025-06-12 16:23:39,155 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.csv
+2025-06-12 16:23:39,155 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.csv
+2025-06-12 16:23:39,165 - ProcessedDataEDA - ERROR - Data loading failed: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2025-06-12 16:23:39,165 - ProcessedDataEDA - ERROR - Data loading failed: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2025-06-12 16:24:31,535 - ProcessedDataEDA - INFO - Loading data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.csv
+2025-06-12 16:24:33,219 - ProcessedDataEDA - INFO - Loaded 142079 records
+2025-06-12 16:24:33,230 - ProcessedDataEDA - INFO - Starting numerical distributions analysis
+2025-06-12 16:25:04,946 - ProcessedDataEDA - INFO - Starting categorical distributions analysis
+2025-06-12 16:25:07,985 - ProcessedDataEDA - INFO - Starting target variables analysis

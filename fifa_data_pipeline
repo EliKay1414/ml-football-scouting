@@ -1,0 +1,130 @@
+digraph FIFA_Data_Pipeline {
+	nodesep=0.5 rankdir=TB ranksep=0.8 splines=ortho
+	node [color="#333333" fillcolor="#f9f9f9" fontname=Arial shape=rect style=filled]
+	edge [arrowhead=normal color="#555555"]
+	subgraph cluster_ingestion {
+		color="#4682b4" fillcolor="#f0f8ff" label="DATA INGESTION" style="rounded,filled"
+		A [label="Raw FIFA Datasets
+(XLSX Files)" fillcolor="#e6f3ff" shape=cylinder]
+		B [label="data_loader.py" fillcolor="#e6e6fa"]
+		B1 [label="Sheet Concatenation"]
+		B2 [label="Year Extraction"]
+		B3 [label="Add 'year' Column"]
+		C [label="Cleaned DataFrame" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		A -> B
+		B -> B1
+		B1 -> B2
+		B2 -> B3
+		B3 -> C
+	}
+	subgraph cluster_cleaning {
+		color="#db7093" fillcolor="#fff0f5" label="DATA CLEANING" style="rounded,filled"
+		D [label="data_cleaner.py" fillcolor="#e6e6fa"]
+		D1 [label="Remove Irrelevant Columns"]
+		D2 [label="Standardize Data Types"]
+		D3 [label="Clean Positions"]
+		D4 [label="Handle Outliers"]
+		D5 [label="Impute Missing Values"]
+		E [label="Processed DataFrame" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		C -> D
+		D -> D1
+		D1 -> D2
+		D2 -> D3
+		D3 -> D4
+		D4 -> D5
+		D5 -> E
+	}
+	subgraph cluster_feature_eng {
+		color="#2e8b57" fillcolor="#f0fff0" label="FEATURE ENGINEERING" style="rounded,filled"
+		F [label="feature_engineering_pipeline.py" fillcolor="#e6e6fa"]
+		F1 [label="Create Composite Features"]
+		F2 [label="Position-Specific Scores"]
+		F3 [label="Development Metrics"]
+		F4 [label="Market Efficiency"]
+		G [label="Engineered Features" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		E -> F
+		F -> F1
+		F1 -> F2
+		F2 -> F3
+		F3 -> F4
+		F4 -> G
+	}
+	subgraph cluster_splitting {
+		color="#daa520" fillcolor="#fffaf0" label="DATA SPLITTING" style="rounded,filled"
+		H [label="data_splitter.py" fillcolor="#e6e6fa"]
+		H1 [label="Stratify by Position/Potential"]
+		H2 [label="Train-Test Split"]
+		H3 [label="Train-Validation Split"]
+		I [label="Stratified Splits" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		G -> H
+		H -> H1
+		H1 -> H2
+		H2 -> H3
+		H3 -> I
+	}
+	subgraph cluster_feature_proc {
+		color="#6a5acd" fillcolor="#f8f8ff" label="FEATURE PROCESSING" style="rounded,filled"
+		J [label="feature_scaling.py" fillcolor="#e6e6fa"]
+		J1 [label="Outlier Detection"]
+		J2 [label="Smart Scaling"]
+		J3 [label="Quality Analysis"]
+		K [label="Scaled Features" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		I -> J
+		J -> J1
+		J1 -> J2
+		J2 -> J3
+		J3 -> K
+	}
+	subgraph cluster_feature_sel {
+		color="#ff6347" fillcolor="#fff5ee" label="FEATURE SELECTION" style="rounded,filled"
+		L [label="feature_selection.py" fillcolor="#e6e6fa"]
+		L1 [label="Leakage Prevention"]
+		L2 [label="Calculate Importance"]
+		L3 [label="Balanced Selection"]
+		M [label="Selected Features" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		K -> L
+		L -> L1
+		L1 -> L2
+		L2 -> L3
+		L3 -> M
+	}
+	subgraph cluster_model_train {
+		color="#696969" fillcolor="#f0f0f0" label="MODEL TRAINING" style="rounded,filled"
+		N [label="model_training.py" fillcolor="#e6e6fa"]
+		N1 [label="Handle Class Imbalance" color="#f44336" fillcolor="#ffebee" shape=diamond]
+		N2 [label="Disable SMOTE"]
+		N3 [label="Build Pipelines"]
+		N4 [label="Cross-Validation"]
+		O [label="Trained Models" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		M -> N
+		N -> N1
+		N1 -> N2 [label="If minority_count < 5" style=dashed]
+		N2 -> N3
+		N3 -> N4
+		N4 -> O
+	}
+	subgraph cluster_evaluation {
+		color="#9370db" fillcolor="#e6e6fa" label=EVALUATION style="rounded,filled"
+		P [label="evaluation_deployment.py" fillcolor="#e6e6fa"]
+		P1 [label="Calculate Metrics"]
+		P2 [label="Pareto Analysis" color="#f44336" fillcolor="#ffebee" shape=diamond]
+		P3 [label="Filter Models"]
+		Q [label="Best Model" color="#039be5" fillcolor="#e1f5fe" shape=parallelogram]
+		O -> P
+		P -> P1
+		P1 -> P2
+		P2 -> P3 [label="If min_recall = 0.5" style=dashed]
+		P3 -> Q
+	}
+	subgraph cluster_deployment {
+		color="#20b2aa" fillcolor="#e0ffff" label=DEPLOYMENT style="rounded,filled"
+		R [label=Deployment fillcolor="#e6e6fa"]
+		R1 [label="Serialize Model"]
+		R2 [label="Generate Metadata"]
+		R3 [label="Prediction Service" fillcolor="#98fb98"]
+		Q -> R
+		R -> R1
+		R1 -> R2
+		R2 -> R3
+	}
+}

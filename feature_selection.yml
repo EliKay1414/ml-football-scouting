@@ -1,0 +1,30 @@
+# config/feature_selection.yml
+problem_type: "regression"
+target_column: "value_eur"
+k_features: 15
+use_rfe: true
+rfe_features: 10
+importance_threshold: "median"
+correlation_threshold: 0.9
+exclude_cols: ["player_id", "name"]
+numeric_cols:
+  - "age"
+  - "height_cm"
+  - "weight_kg" 
+  - "overall"
+  - "potential"
+  - "value_eur"
+  - "wage_eur"
+  - "pace"
+  - "shooting"
+  - "passing"
+  - "dribbling"
+  - "defending"
+  - "physic"
+categorical_cols:
+  - "nationality"
+  - "club"
+  - "position"
+  - "preferred_foot"
+encoding_strategy: "ordinal"
+force_numeric: false

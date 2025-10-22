@@ -1,0 +1,33 @@
+2025-06-09 07:53:54,465 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_playes_cleaned.parquet
+2025-06-09 07:59:11,362 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_playes_cleaned.parquet
+2025-06-09 07:59:45,467 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_playes_cleaned.parquet
+2025-06-09 08:12:29,036 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 08:12:29,725 - INFO - Successfully loaded 142079 records
+2025-06-09 08:17:15,844 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 08:17:16,065 - INFO - Successfully loaded 142079 records
+2025-06-09 08:24:00,552 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 08:24:00,783 - INFO - Successfully loaded 142079 records
+2025-06-09 08:24:01,835 - INFO - Starting professional EDA analysis
+2025-06-09 08:24:01,837 - INFO - Analyzing target variable distributions
+2025-06-09 08:24:05,332 - INFO - Analyzing position-specific patterns
+2025-06-09 08:24:06,939 - INFO - Analyzing age development patterns
+2025-06-09 15:12:52,506 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 15:12:53,017 - INFO - Successfully loaded 142079 records
+2025-06-09 15:12:53,665 - INFO - Starting professional EDA analysis
+2025-06-09 15:17:09,518 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 15:17:09,741 - INFO - Successfully loaded 142079 records
+2025-06-09 15:17:10,647 - INFO - Starting professional EDA analysis
+2025-06-09 15:17:38,490 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 15:17:38,811 - INFO - Successfully loaded 142079 records
+2025-06-09 15:17:39,479 - INFO - Starting professional EDA analysis
+2025-06-09 15:29:47,687 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 15:29:47,923 - INFO - Successfully loaded 142079 records
+2025-06-09 15:29:48,595 - INFO - Starting professional EDA analysis
+2025-06-09 15:30:16,163 - INFO - Loading processed data from: C:\Users\Nanaba\Desktop\football_player_scouting_ml\data\processed\fifa_players_cleaned.parquet
+2025-06-09 15:30:16,435 - INFO - Successfully loaded 142079 records
+2025-06-09 15:30:17,111 - INFO - Starting professional EDA analysis
+2025-06-09 15:30:17,111 - INFO - Analyzing target variable distributions
+2025-06-09 15:30:21,153 - INFO - Analyzing position-specific patterns
+2025-06-09 15:30:22,772 - INFO - Analyzing age development patterns
+2025-06-09 15:30:26,066 - INFO - PDF report saved at C:\Users\Nanaba\Desktop\football_player_scouting_ml\eda_outputs\fifa_eda_report.pdf
+2025-06-09 15:30:26,066 - INFO - Analysis complete. Report saved to C:\Users\Nanaba\Desktop\football_player_scouting_ml\eda_outputs
